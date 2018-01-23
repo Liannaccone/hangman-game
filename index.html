@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 
 	<!-- bootstrap css link -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
 	<!-- local CSS style sheet -->
 	 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<title>Hangman</title>
@@ -13,7 +14,7 @@
 
 	<!-- header, maybe make this a jumbotron -->
 	<Header> Hangman </Header>
-	<h1>Duck Style</h1>
+	<div> Duck Style</div>
 
 	<!-- main body of page in container to provide grid -->
 	<div class="container">
@@ -25,9 +26,18 @@
 				<img class="img img-thumbnail" src="http://via.placeholder.com/200x200">
 			</div>
 			<!-- section onthe right contains the game text/UI -->
-			<div class-"col-md-6">
-				<h1>Press any key to get started!</h1>
-				<h2 id="score">Score: 0</h2>
+			<div class="col-md-6">
+				<div>Press any key to get started!</div>
+
+				<div id="score">Score: 0</div>
+
+				<div id="word"> Current Word </div>
+
+				<div id="remainingGuesses"> Number of guesses remaining: 12 </div>
+
+				<div id="wrongLetters">Letters already guessed: [  ]</div>
+
+
 
 				<!-- build in area for hint (plays duck call) -->
 
